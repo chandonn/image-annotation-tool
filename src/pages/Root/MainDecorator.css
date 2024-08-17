@@ -1,0 +1,61 @@
+.background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.Sunny {
+    background-image: url("../../assets/img/weatherlly-sunny.jpg");
+}
+
+.Sunny-Cloudy {
+    background-image: url("../../assets/img/weatherlly-sunny-cloudy.jpg");
+}
+
+.Fog {
+    background-image: url("../../assets/img/weatherlly-fog.jpg");
+}
+
+.Drizzle {
+    background-image: url("../../assets/img/weatherlly-rain.jpg");
+}
+
+.Freezing-Drizzle {
+    background-image: url("../../assets/img/weatherlly-rain.jpg");
+}
+
+.Rain {
+    background-image: url("../../assets/img/weatherlly-rain.jpg");
+}
+
+.Freezing-Rain {
+    background-image: url("../../assets/img/weatherlly-rain.jpg");
+}
+
+.Rain-showers {
+    background-image: url("../../assets/img/weatherlly-rain.jpg");
+}
+
+.Snow-fall {
+    background-image: url("../../assets/img/weatherlly-snow.jpg");
+}
+
+.Snow-grains {
+    background-image: url("../../assets/img/weatherlly-snow.jpg");
+}
+
+.Snow-showers {
+    background-image: url("../../assets/img/weatherlly-snow.jpg");
+}
+
+.Thunderstorm {
+    background-image: url("../../assets/img/weatherlly-storm.jpg");
+}
+
+@media screen and (max-width: 768px) {
+    .background-image.full-page {
+        height: auto;
+        min-height: 100vh;
+    }
+}

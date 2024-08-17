@@ -1,0 +1,8 @@
+.error-page h3 {
+    margin-top: 2em;
+}
+
+.error-page a, .error-page a:visited, .error-page a:active {
+    color: #FB8500;
+    text-decoration: none;
+}

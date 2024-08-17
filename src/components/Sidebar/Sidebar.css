@@ -1,0 +1,51 @@
+.sidebar {
+  width: 300px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.options-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.options-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.options-list li:hover {
+  background-color: #e0e0e0;
+}
+
+.highlight {
+  background-color: #d0d0d0;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
